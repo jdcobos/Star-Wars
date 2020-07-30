@@ -1,0 +1,15 @@
+.displayComponent{
+    display: none !important;
+}
+
+.positionBtn{
+    position: absolute;
+    right: 6%;
+}
+
+.positionLoad{
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    z-index: 10 !important;
+}

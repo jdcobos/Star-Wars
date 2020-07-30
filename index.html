@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Star Wars</title>
+</head>
+<body>
+ 
+  
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" >
+          <img   class="d-inline-block align-top"  loading="lazy">
+          Star wars
+        </a>
+      </nav> 
+      <div id="load"class="positionLoad displayComponent" >
+        <div class="spinner-border"></div>
+      </div>
+ 
+    <div class="row">
+        <div class="atras">
+            <button onclick="load()" class="displayComponent btn btn-info positionBtn mt-2" id="btnLoad">Cargar listado de peliculas</button>
+        </div>
+    </div>
+    <div class="container">
+        <table class="table table-dark mt-5" >
+            <tbody id="tableStar">
+    
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container" >
+        <div class="row" id="tableDetail" >
+            <div class="col">
+                <h3>Personajes</3>
+                <table class="table table-dark mt-5" >
+                    <tbody id="tablePeople">
+                       
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <h3>Planetas</3>
+                <table class="table table-dark mt-5" >
+                    <tbody id="tablePlanets">
+            
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <h3>Nave</3>
+                <table class="table table-dark mt-5" >
+                    <tbody id="tableNave">
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/StarWarRes.js"></script>
+</html>
